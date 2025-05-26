@@ -130,7 +130,7 @@ def spin_protocol(G, source, target):
     return path, adv_count + req_count + data_count, len(nodes_involved), latency
 
 # --- Environmental Adaptability ---
-def count_harsh_nodes(G, path, temp_thresh=45, humidity_thresh=100):
+def count_harsh_nodes(G, path, temp_thresh=50, humidity_thresh=150):
     return sum(
         1 for node in path
         if G.nodes[node]['temp'] > temp_thresh or G.nodes[node]['humidity'] > humidity_thresh
