@@ -1,5 +1,0 @@
-Algorithm,TotalEnergyUsed,FinalAliveNodes,TotalReachedSink,AvgDistToSink
-Dijkstra,2.168523,25,0,155.36
-AStar,2.825698,27,100,150.66
-BellmanFord,3.429303,31,100,148.48
-LEACH,4.541387,25,203,148.34
